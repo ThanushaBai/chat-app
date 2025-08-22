@@ -1,0 +1,46 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+
+# Environment files
+.env
+*.env
+
+# Logs
+logs
+*.log
+logs/*.log
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Build output
+dist/
+build/
+.cache/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# IDE / Editor configs
+.vscode/
+.idea/
+
+# Optional: Test coverage
+coverage/
+
+# Optional: Temporary files
+tmp/
+temp/
+
+# Optional: Database files (if local DB)
+*.sqlite
+*.db
+
+# Ignore sensitive keys or secrets files
+secrets.json
